@@ -72,11 +72,24 @@ body {
     line-height: 1;
     margin-bottom: 16px;
 }
+.banner-category {
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: red;
+    text-transform: uppercase;
+}
 .banner-category span {
     display: inline-block;
     vertical-align: middle;
-    width: 10px;
-    height: 10px;
+}
+.banner-category i.icon-box {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    width: 11px;
+    height: 11px;
     margin-right: 8px;
     background-color: red;
 }
